@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  display: flex;
+  background-color: rgb(195, 236, 222);
+}
+
+.card{
+  width: 350px;
+  height: 450px;
+  /* From https://css.glass */
+ background: rgba(8, 7, 7, 0.5);
+ border-radius: 19px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+ backdrop-filter: blur(15.5px);
+ -webkit-backdrop-filter: blur(15.5px);
+ border: 1px solid rgba(8, 7, 7, 0.37);
+  margin-bottom: 20px;
+  padding: 15px;
+  color: aliceblue;
+}
+.container img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.user-list {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #b97a7a;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.user-list-container {
+  background: rgba(255, 255, 255, 0.15); /* Semi-transparent white background */
+  border-radius: 12px;
+  backdrop-filter: blur(10px); /* Apply the frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.18); /* Add a subtle border */
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.user-list li {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.user-list li:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+}
+
+
